@@ -19,8 +19,6 @@ const CHeroContent = () => {
     }
 
     const handleChangeInput = (input) => {        
-        console.log(input)
-        // console.log(timer)
         clearTimeout(timer)
         if(input!==''){
             timer = setTimeout(()=> handleGetData(input), 750)
