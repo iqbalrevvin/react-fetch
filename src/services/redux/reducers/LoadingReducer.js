@@ -4,7 +4,6 @@ const initialState = {
 
 const LoadingReducer = (state=initialState, action) => {
     switch(action.type){
-        //Start::Auth Loading
         case 'GITHUB-LOADING':
             return{
                 loadingGithub: true
